@@ -37,3 +37,5 @@
    - 전국 시, 도별 여행 정보를 제공함으로써 여행 정보에 관한 궁금증 해소
  - 사진 첨부 가능
    - 사진을 통한 여행지에 관한 사실적인 정보
+![flow chart](https://user-images.githubusercontent.com/89428396/130538537-a4b70a53-3e72-4976-aa7d-ba0f3e49b7ae.JPG)
+
