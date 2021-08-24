@@ -39,3 +39,38 @@
    - 사진을 통한 여행지에 관한 사실적인 정보
 ![flow chart](https://user-images.githubusercontent.com/89428396/130538537-a4b70a53-3e72-4976-aa7d-ba0f3e49b7ae.JPG)
 
+<상세내용 페이지>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>문단 정렬</title>
+        <style>
+            h1{text-align:center;}
+            h2{text-align:left;}
+            p{text-align:left}
+        </style>
+    </head>
+    <body>
+        <h1>방방곡곡</h1>
+        <h2>전라남도 순천시 - 순천만 국가정원</h2>
+        <p>작성자 :</p>
+        <p>작성일 :</p>
+    </body>
+    <body>
+        <img src="순천만.jpg">
+        <div style="border:1px dashed #BDBDBD;width: 900px; height: 285px; float: right;">글내용</div>
+        <p>
+            주소 : 전남 순천시 국가정원1호길 47
+        </p>    
+    </body>
+    <form action = 'login_page.php'>
+        <input type = 'button'
+               value = '목록'
+               outlick = 'alert("목록으로가시겠습니까?")'/>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <button type="button" class="btn btn-info" style="margin-right: 2%;">수정</button>
+               <button type="button" class="btn btn-info" style="margin-right: 2%;">삭제</button>
+    </form>
+  
+</html>
